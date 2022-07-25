@@ -11,7 +11,6 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using Vortex.Presentation.Blazor.Services;
-using VortexBlazor.Data;
 
 namespace VortexBlazor
 {
@@ -30,7 +29,6 @@ namespace VortexBlazor
         {
             services.AddRazorPages();
             services.AddServerSideBlazor();
-            services.AddSingleton<WeatherForecastService>();
             services.AddVortexBlazorServices();
             Entry.PlcHammer.Connector.BuildAndStart();
         }

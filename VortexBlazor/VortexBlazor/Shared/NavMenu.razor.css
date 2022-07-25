@@ -4,7 +4,8 @@
 
 .top-row {
     height: 3.5rem;
-    background-color: rgba(0,0,0,0.4);
+    /*background-color: rgba(0,0,0,0.4);*/
+    justify-content: space-between;
 }
 
 .navbar-brand {
@@ -53,6 +54,10 @@
 @media (min-width: 641px) {
     .navbar-toggler {
         display: none;
+    }
+
+    .top-row {
+        justify-content: center;
     }
 
     .collapse {
