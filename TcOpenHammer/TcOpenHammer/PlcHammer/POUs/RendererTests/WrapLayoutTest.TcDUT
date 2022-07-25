@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TcPlcObject Version="1.1.0.1" ProductVersion="3.1.4024.9">
+  <DUT Name="WrapLayoutTest" Id="{3889ad76-98dd-498a-bef0-7ecba1d20f63}">
+    <Declaration><![CDATA[{attribute wpf [Container(Layout.Wrap)]}
+TYPE WrapLayoutTest :
+STRUCT
+	test1: BOOL;
+	var1: INT;
+	test2: STRING;
+	
+	
+	simulation : RealValueSimulation;
+END_STRUCT
+END_TYPE
+]]></Declaration>
+  </DUT>
+</TcPlcObject>
