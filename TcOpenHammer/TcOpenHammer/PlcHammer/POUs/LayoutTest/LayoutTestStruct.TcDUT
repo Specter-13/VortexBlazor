@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <TcPlcObject Version="1.1.0.1" ProductVersion="3.1.4024.9">
-  <DUT Name="RendererTestStruct" Id="{f29f5fcd-3df5-4eea-8c31-6186e4f5ace9}">
-    <Declaration><![CDATA[TYPE RendererTestStruct :
+  <DUT Name="LayoutTestStruct" Id="{f29f5fcd-3df5-4eea-8c31-6186e4f5ace9}">
+    <Declaration><![CDATA[TYPE LayoutTestStruct :
 STRUCT
 	_wrapLayoutTests: WrapLayoutTest;
 END_STRUCT

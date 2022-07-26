@@ -1415,7 +1415,7 @@ External Setpoint Generation:
 			</ArrayInfo>
 		</DataType>
 	</DataTypes>
-	<Project ProjectGUID="{109280FE-345A-46E7-B71E-79F11C1FF4CF}" Target64Bit="true" ShowHideConfigurations="#x106">
+	<Project ProjectGUID="{109280FE-345A-46E7-B71E-79F11C1FF4CF}" Target64Bit="true" ShowHideConfigurations="#x3c6">
 		<System>
 			<Settings MaxCpus="16">
 				<Cpu CpuId="1"/>

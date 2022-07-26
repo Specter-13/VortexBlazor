@@ -60,10 +60,10 @@
     <Compile Include="POUs\Data\TechnologicalDataManager.TcPOU">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="POUs\RendererTests\RendererTestStruct.TcDUT">
+    <Compile Include="POUs\LayoutTest\LayoutTestStruct.TcDUT">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="POUs\RendererTests\WrapLayoutTest.TcDUT">
+    <Compile Include="POUs\LayoutTest\WrapLayoutTest.TcDUT">
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="POUs\Station001\Station001_Swift.TcPOU">
@@ -103,7 +103,7 @@
     <Folder Include="Misc" />
     <Folder Include="Misc\Checkers" />
     <Folder Include="POUs\Data" />
-    <Folder Include="POUs\RendererTests" />
+    <Folder Include="POUs\LayoutTest" />
     <Folder Include="POUs\Station001" />
     <Folder Include="VISUs" />
     <Folder Include="POUs" />

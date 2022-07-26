@@ -4,12 +4,14 @@
     <Declaration><![CDATA[{attribute wpf [Container(Layout.Wrap)]}
 TYPE WrapLayoutTest :
 STRUCT
-	test1: BOOL;
-	var1: INT;
-	test2: STRING;
+	_bool_00               : BOOL;
+	_int_00                : INT;
+	_string_00             : STRING;
+	_string_01             : STRING := 'How are you?';
+	_uint_subrange_69to420 : UINT (69..420);
 	
-	
-	simulation : RealValueSimulation;
+	_simulation_00         : RealValueSimulation;
+	_eCheck_00             : eCheckResult;
 END_STRUCT
 END_TYPE
 ]]></Declaration>
