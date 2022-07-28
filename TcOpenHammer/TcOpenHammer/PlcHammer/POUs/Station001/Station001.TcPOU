@@ -21,7 +21,7 @@ VAR
 	_currentMode : enumModes := enumModes.Idle;
 	_checkers : Checkers(THIS^);
 	
-	_layoutTests: LayoutTestStruct;
+	_layoutTests: TestLayoutStruct;
 END_VAR]]></Declaration>
     <Implementation>
       <ST><![CDATA[_components();

@@ -33,7 +33,34 @@
     <Compile Include="Components\Drive\IDrive.TcIO">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Include="DUTs\enumColors.TcDUT">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="DUTs\enumModes.TcDUT">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="DUTs\LayoutTest\LayoutBorderStruct.TcDUT">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="DUTs\LayoutTest\LayoutGroupBoxStruct.TcDUT">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="DUTs\LayoutTest\LayoutTabsStruct.TcDUT">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="DUTs\LayoutTest\LayoutUniformGridStruct.TcDUT">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="DUTs\LayoutTest\TestLayoutStruct.TcDUT">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="DUTs\LayoutTest\LayoutStackStruct.TcDUT">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="DUTs\LayoutTest\VariousTypesStruct.TcDUT">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="DUTs\LayoutTest\LayoutWrapStruct.TcDUT">
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="Misc\Checkers\Checkers.TcPOU">
@@ -58,12 +85,6 @@
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="POUs\Data\TechnologicalDataManager.TcPOU">
-      <SubType>Code</SubType>
-    </Compile>
-    <Compile Include="POUs\LayoutTest\LayoutTestStruct.TcDUT">
-      <SubType>Code</SubType>
-    </Compile>
-    <Compile Include="POUs\LayoutTest\WrapLayoutTest.TcDUT">
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="POUs\Station001\Station001_Swift.TcPOU">
@@ -97,13 +118,13 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="DUTs" />
+    <Folder Include="DUTs\LayoutTest" />
     <Folder Include="GVLs" />
     <Folder Include="Components" />
     <Folder Include="Components\Drive" />
     <Folder Include="Misc" />
     <Folder Include="Misc\Checkers" />
     <Folder Include="POUs\Data" />
-    <Folder Include="POUs\LayoutTest" />
     <Folder Include="POUs\Station001" />
     <Folder Include="VISUs" />
     <Folder Include="POUs" />

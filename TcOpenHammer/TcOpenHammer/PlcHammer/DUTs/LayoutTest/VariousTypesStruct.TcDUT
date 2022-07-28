@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TcPlcObject Version="1.1.0.1" ProductVersion="3.1.4024.9">
+  <DUT Name="VariousTypesStruct" Id="{3889ad76-98dd-498a-bef0-7ecba1d20f63}">
+    <Declaration><![CDATA[TYPE VariousTypesStruct :
+STRUCT
+	_BOOL_00          : BOOL;
+	_INT_00           : INT;
+	{attribute addProperty Name "<#_UINT_00 with subrange 69-420#>"}
+	_UINT_00          : UINT (69..420);
+	_ULINT_00         : ULINT := 18446744073709551615;
+	_REAL_00          : REAL := 2.718281828;
+	_BYTE_00          : BYTE := 2#00000101;
+	_DATE_AND_TIME_00 : DATE_AND_TIME := DT#2000-01-01-00:00:00.01;
+	_LTIME_00         : LTIME := LTIME#2D0H45M1S563MS333US880NS;
+	{attribute clr [RenderIgnore()]}
+	_STRING_00        : STRING;
+	_STRING_01        : STRING := 'How are you?';
+	_ptString         : POINTER TO STRING := ADR(_STRING_01);
+	_eColors_00       : enumColors := enumColors.Red;
+END_STRUCT
+END_TYPE
+]]></Declaration>
+  </DUT>
+</TcPlcObject>

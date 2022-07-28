@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TcPlcObject Version="1.1.0.1" ProductVersion="3.1.4024.9">
+  <DUT Name="LayoutBorderStruct" Id="{8ed63803-d2cb-404c-8fdf-87c28b16e246}">
+    <Declaration><![CDATA[{attribute wpf [Container(Layout.Border)]}
+TYPE LayoutBorderStruct EXTENDS VariousTypesStruct :
+STRUCT
+END_STRUCT
+END_TYPE
+]]></Declaration>
+  </DUT>
+</TcPlcObject>

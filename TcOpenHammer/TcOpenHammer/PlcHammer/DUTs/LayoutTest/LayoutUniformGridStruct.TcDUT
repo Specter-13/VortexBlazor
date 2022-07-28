@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TcPlcObject Version="1.1.0.1" ProductVersion="3.1.4024.9">
+  <DUT Name="LayoutUniformGridStruct" Id="{2841bd8e-6506-4862-b365-cda5832e9c78}">
+    <Declaration><![CDATA[{attribute wpf [Container(Layout.UniformGrid)]}
+TYPE LayoutUniformGridStruct EXTENDS VariousTypesStruct :
+STRUCT
+END_STRUCT
+END_TYPE
+]]></Declaration>
+  </DUT>
+</TcPlcObject>

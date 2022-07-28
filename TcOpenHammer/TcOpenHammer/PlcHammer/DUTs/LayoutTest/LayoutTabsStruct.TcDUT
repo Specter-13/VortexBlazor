@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TcPlcObject Version="1.1.0.1" ProductVersion="3.1.4024.9">
+  <DUT Name="LayoutTabsStruct" Id="{6c17bf70-7c0a-4257-8c27-ce0eac3180c5}">
+    <Declaration><![CDATA[{attribute wpf [Container(Layout.Tabs)]}
+TYPE LayoutTabsStruct EXTENDS VariousTypesStruct :
+STRUCT
+END_STRUCT
+END_TYPE
+]]></Declaration>
+  </DUT>
+</TcPlcObject>
