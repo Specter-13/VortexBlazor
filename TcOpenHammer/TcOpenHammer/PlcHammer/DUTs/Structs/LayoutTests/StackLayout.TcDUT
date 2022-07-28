@@ -1,9 +1,10 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <TcPlcObject Version="1.1.0.1" ProductVersion="3.1.4024.9">
-  <DUT Name="LayoutStackStruct" Id="{ef44e3d6-b837-4bb4-89da-d5be138072ef}">
+  <DUT Name="StackLayout" Id="{1be459b3-4f78-4c87-bebf-5f3b887461ed}">
     <Declaration><![CDATA[{attribute wpf [Container(Layout.Stack)]}
-TYPE LayoutStackStruct EXTENDS VariousTypesStruct :
+TYPE StackLayout:
 STRUCT
+	_various_types: VariousTypes;
 END_STRUCT
 END_TYPE
 ]]></Declaration>

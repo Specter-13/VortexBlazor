@@ -141,4 +141,22 @@
   <data name="____UINT_00_with_subrange_69_420__" xml:space="preserve">
     <value>_UINT_00 with subrange 69-420</value>
   </data>
+  <data name="___An_int__" xml:space="preserve">
+    <value>An int</value>
+  </data>
+  <data name="___Car___an_idea__" xml:space="preserve">
+    <value>Car - an idea</value>
+  </data>
+  <data name="___An_integer__" xml:space="preserve">
+    <value>An integer</value>
+  </data>
+  <data name="___Car_Uno__" xml:space="preserve">
+    <value>Car Uno</value>
+  </data>
+  <data name="___Car_Dos__" xml:space="preserve">
+    <value>Car Dos</value>
+  </data>
+  <data name="___Car_Tres__" xml:space="preserve">
+    <value>Car Tres</value>
+  </data>
 </root>

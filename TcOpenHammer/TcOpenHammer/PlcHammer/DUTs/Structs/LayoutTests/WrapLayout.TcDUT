@@ -1,9 +1,10 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <TcPlcObject Version="1.1.0.1" ProductVersion="3.1.4024.9">
-  <DUT Name="LayoutWrapStruct" Id="{f3722166-5651-4e5a-b408-f54c82fb436d}">
+  <DUT Name="WrapLayout" Id="{9d7ec322-52e6-4d4e-997b-911c98c9627a}">
     <Declaration><![CDATA[{attribute wpf [Container(Layout.Wrap)]}
-TYPE LayoutWrapStruct EXTENDS VariousTypesStruct :
+TYPE WrapLayout:
 STRUCT
+	_various_types: VariousTypes;
 END_STRUCT
 END_TYPE
 ]]></Declaration>

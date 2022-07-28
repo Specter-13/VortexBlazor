@@ -1,9 +1,14 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <TcPlcObject Version="1.1.0.1" ProductVersion="3.1.4024.9">
-  <DUT Name="LayoutGroupBoxStruct" Id="{ac01bb8c-804e-4564-b136-a6af33b09922}">
+  <DUT Name="GroupBoxLayout" Id="{cad173a1-4b25-44ff-9267-9295204f781a}">
     <Declaration><![CDATA[{attribute wpf [Container(Layout.GroupBox)]}
-TYPE LayoutGroupBoxStruct EXTENDS VariousTypesStruct :
+TYPE GroupBoxLayout:
 STRUCT
+	{attribute addProperty Name "<#Car - an idea#>"}
+	_car: Car;
+	
+	{attribute addProperty Name "<#An integer#>"}
+	_INT_00: INT;
 END_STRUCT
 END_TYPE
 ]]></Declaration>

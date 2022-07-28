@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <TcPlcObject Version="1.1.0.1" ProductVersion="3.1.4024.9">
-  <DUT Name="VariousTypesStruct" Id="{3889ad76-98dd-498a-bef0-7ecba1d20f63}">
-    <Declaration><![CDATA[TYPE VariousTypesStruct :
+  <DUT Name="VariousTypes" Id="{c6f30eca-f821-4b81-b7d8-47507ca8a9f5}">
+    <Declaration><![CDATA[TYPE VariousTypes :
 STRUCT
 	_BOOL_00          : BOOL;
 	_INT_00           : INT;

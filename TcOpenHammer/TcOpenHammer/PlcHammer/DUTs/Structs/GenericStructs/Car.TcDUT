@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TcPlcObject Version="1.1.0.1" ProductVersion="3.1.4024.9">
+  <DUT Name="Car" Id="{4fe49d66-b33d-4330-8b19-b3f9b00db12d}">
+    <Declaration><![CDATA[{attribute wpf [Container(Layout.Stack)]}
+{attribute wpf [Group(Layout.GroupBox)]}
+TYPE Car :
+STRUCT
+	_manufacturer: STRING;
+	_model: STRING;
+	_manufactured_time: DATE_AND_TIME;
+	_ready_for_UK: BOOL;
+	_color: enumColors;
+	_width: REAL;
+	_height: REAL;
+	_length: REAL;
+	_price: USINT;
+END_STRUCT
+END_TYPE
+]]></Declaration>
+  </DUT>
+</TcPlcObject>

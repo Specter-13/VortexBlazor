@@ -33,34 +33,37 @@
     <Compile Include="Components\Drive\IDrive.TcIO">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="DUTs\enumColors.TcDUT">
+    <Compile Include="DUTs\Enums\enumColors.TcDUT">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="DUTs\enumModes.TcDUT">
+    <Compile Include="DUTs\Enums\enumModes.TcDUT">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="DUTs\LayoutTest\LayoutBorderStruct.TcDUT">
+    <Compile Include="DUTs\Structs\GenericStructs\Car.TcDUT">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="DUTs\LayoutTest\LayoutGroupBoxStruct.TcDUT">
+    <Compile Include="DUTs\Structs\GenericStructs\VariousTypes.TcDUT">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="DUTs\LayoutTest\LayoutTabsStruct.TcDUT">
+    <Compile Include="DUTs\Structs\LayoutTests\BorderLayout.TcDUT">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="DUTs\LayoutTest\LayoutUniformGridStruct.TcDUT">
+    <Compile Include="DUTs\Structs\LayoutTests\GroupBoxLayout.TcDUT">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="DUTs\LayoutTest\TestLayoutStruct.TcDUT">
+    <Compile Include="DUTs\Structs\LayoutTests\StackLayout.TcDUT">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="DUTs\LayoutTest\LayoutStackStruct.TcDUT">
+    <Compile Include="DUTs\Structs\LayoutTests\TabsLayout.TcDUT">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="DUTs\LayoutTest\VariousTypesStruct.TcDUT">
+    <Compile Include="DUTs\Structs\LayoutTests\UniformGridLayout.TcDUT">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="DUTs\LayoutTest\LayoutWrapStruct.TcDUT">
+    <Compile Include="DUTs\Structs\LayoutTests\WrapLayout.TcDUT">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="DUTs\Structs\LayoutTests.TcDUT">
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="Misc\Checkers\Checkers.TcPOU">
@@ -118,7 +121,10 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="DUTs" />
-    <Folder Include="DUTs\LayoutTest" />
+    <Folder Include="DUTs\Enums" />
+    <Folder Include="DUTs\Structs" />
+    <Folder Include="DUTs\Structs\LayoutTests" />
+    <Folder Include="DUTs\Structs\GenericStructs" />
     <Folder Include="GVLs" />
     <Folder Include="Components" />
     <Folder Include="Components\Drive" />

@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TcPlcObject Version="1.1.0.1" ProductVersion="3.1.4024.9">
+  <DUT Name="TabsLayout" Id="{f0cdd51a-5222-498e-990d-9712d34ffb1d}">
+    <Declaration><![CDATA[{attribute wpf [Container(Layout.Tabs)]}
+TYPE TabsLayout:
+STRUCT
+//	{attribute addProperty Name "<#Car Uno#>"}
+//	_car_uno: Car := (_manufacturer := 'Uno');
+	
+//	{attribute addProperty Name "<#Car Dos#>"}
+//	_car_dos: Car := (_manufacturer := 'Dos');
+	
+//	{attribute addProperty Name "<#Car Tres#>"}
+//	_car_tres: Car := (_manufacturer := 'Tres');
+
+	_various_types: VariousTypes;
+END_STRUCT
+END_TYPE
+]]></Declaration>
+  </DUT>
+</TcPlcObject>
