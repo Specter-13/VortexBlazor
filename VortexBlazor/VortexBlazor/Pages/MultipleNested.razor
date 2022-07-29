@@ -8,21 +8,27 @@
 
 <hr />
 
-<ul>
-    @foreach (var file in files)
-    {
-        <li>
-            <a @onclick="() => SetOption(file)" @onclick:preventDefault="true" href="@($"/multiple_nested/{file}")">@file</a>
-        </li>
-    }
-</ul>
+<div class="text-center">
+    <button class="btn btn-sm" data-toggle="collapse" data-target="#menuCollapse" aria-expanded="true">Collapse menu</button>
+</div>
+
+<div class="collapse show rounded" id="menuCollapse" style="background-color: #f7f7f7">
+    <ul>
+        @foreach (var file in files)
+        {
+            <li>
+                <a @onclick="() => SetOption(file)" @onclick:preventDefault="true" href="@($"/multiple_nested/{file}")">@file</a>
+            </li>
+        }
+    </ul>
+</div>
 
 @switch (selectedType)
 {
     //TODO
-    @*case "Component":
+    case "Component":
         <Component/>
-        break;*@
+        break;
 }
 
 @code {
