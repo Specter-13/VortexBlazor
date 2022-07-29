@@ -1,9 +1,37 @@
-﻿@page "/multiple_nested"
+﻿@using System;
+@using System.IO;
+@using VortexBlazor.Pages.MultipleNestedPages
+
+@page "/multiple_nested"
 
 <h2>Multiple layouts nested</h2>
 
-<hr/>
+<hr />
+
+<ul>
+    @foreach (var file in files)
+    {
+        <li>
+            <a @onclick="() => SetOption(file)" @onclick:preventDefault="true" href="@($"/multiple_nested/{file}")">@file</a>
+        </li>
+    }
+</ul>
+
+@switch (selectedType)
+{
+    //TODO
+    @*case "Component":
+        <Component/>
+        break;*@
+}
 
 @code {
+    private IEnumerable<string> files = from file in new List<string>(Directory.GetFiles(@"Pages\MultipleNestedPages", "*.razor")) select Path.GetFileNameWithoutExtension(file);
 
+    private string selectedType;
+
+    private void SetOption(string s)
+    {
+        selectedType = s;
+    }
 }
