@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TcPlcObject Version="1.1.0.1" ProductVersion="3.1.4024.9">
+  <DUT Name="Tabs_other" Id="{2ddf7779-aa11-4984-87a7-283c00dc9299}">
+    <Declaration><![CDATA[{attribute wpf [Container(Layout.Tabs)]}
+TYPE Tabs_other :
+STRUCT
+	{attribute addProperty Name "<#Stack#>"}
+	{attribute wpf [Container(Layout.Stack)]}
+	_wheel_stack: Wheel;
+	{attribute addProperty Name "<#UniformGrid#>"}
+	{attribute wpf [Container(Layout.UniformGrid)]}
+	_wheel_ug: Wheel;
+	{attribute addProperty Name "<#Wrap#>"}
+	{attribute wpf [Container(Layout.Wrap)]}
+	_wheel_wrap: Wheel;
+	{attribute addProperty Name "<#Border#>"}
+	{attribute wpf [Container(Layout.Border)]}
+	_wheel_border: Wheel;
+	{attribute addProperty Name "<#GroupBox#>"}
+	{attribute wpf [Container(Layout.GroupBox)]}
+	_wheel_gb: Wheel;
+END_STRUCT
+END_TYPE
+]]></Declaration>
+  </DUT>
+</TcPlcObject>

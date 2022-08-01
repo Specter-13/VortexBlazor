@@ -45,25 +45,46 @@
     <Compile Include="DUTs\Structs\GenericStructs\VariousTypes.TcDUT">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="DUTs\Structs\LayoutTests\BorderLayout.TcDUT">
+    <Compile Include="DUTs\Structs\GenericStructs\Wheel.TcDUT">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="DUTs\Structs\LayoutTests\GroupBoxLayout.TcDUT">
+    <Compile Include="DUTs\Structs\LayoutTests\Border\BorderLayout.TcDUT">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="DUTs\Structs\LayoutTests\StackLayout.TcDUT">
+    <Compile Include="DUTs\Structs\LayoutTests\Border\Border_other.TcDUT">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="DUTs\Structs\LayoutTests\TabsLayout.TcDUT">
+    <Compile Include="DUTs\Structs\LayoutTests\GroupBox\GroupBoxLayout.TcDUT">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="DUTs\Structs\LayoutTests\UniformGridLayout.TcDUT">
+    <Compile Include="DUTs\Structs\LayoutTests\GroupBox\GroupBox_other.TcDUT">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="DUTs\Structs\LayoutTests\WrapLayout.TcDUT">
+    <Compile Include="DUTs\Structs\LayoutTests\Stack\StackLayout.TcDUT">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="DUTs\Structs\LayoutTests\Stack\Stack_other.TcDUT">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="DUTs\Structs\LayoutTests\Tabs\TabsLayout.TcDUT">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="DUTs\Structs\LayoutTests\Tabs\Tabs_other.TcDUT">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="DUTs\Structs\LayoutTests\UniformGrid\UniformGridLayout.TcDUT">
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="DUTs\Structs\LayoutTests.TcDUT">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="DUTs\Structs\LayoutTests\UniformGrid\UniformGrid_other.TcDUT">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="DUTs\Structs\LayoutTests\Wrap\WrapLayout.TcDUT">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="DUTs\Structs\LayoutTests\Wrap\Wrap_other.TcDUT">
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="Misc\Checkers\Checkers.TcPOU">
@@ -125,6 +146,13 @@
     <Folder Include="DUTs\Structs" />
     <Folder Include="DUTs\Structs\LayoutTests" />
     <Folder Include="DUTs\Structs\GenericStructs" />
+    <Folder Include="DUTs\Structs\LayoutTests\Multiple" />
+    <Folder Include="DUTs\Structs\LayoutTests\Border" />
+    <Folder Include="DUTs\Structs\LayoutTests\GroupBox" />
+    <Folder Include="DUTs\Structs\LayoutTests\Tabs" />
+    <Folder Include="DUTs\Structs\LayoutTests\Wrap" />
+    <Folder Include="DUTs\Structs\LayoutTests\UniformGrid" />
+    <Folder Include="DUTs\Structs\LayoutTests\Stack" />
     <Folder Include="GVLs" />
     <Folder Include="Components" />
     <Folder Include="Components\Drive" />

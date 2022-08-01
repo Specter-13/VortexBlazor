@@ -4,7 +4,7 @@
     <Declaration><![CDATA[{attribute wpf [Container(Layout.Stack)]}
 TYPE StackLayout:
 STRUCT
-	_various_types: VariousTypes;
+	_wheel: Wheel;
 END_STRUCT
 END_TYPE
 ]]></Declaration>

@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TcPlcObject Version="1.1.0.1" ProductVersion="3.1.4024.9">
+  <DUT Name="Wheel" Id="{e8c3d6ff-2a72-4aca-b490-4583f6b79fc9}">
+    <Declaration><![CDATA[TYPE Wheel :
+STRUCT
+	_rim_radius: REAL;
+	_material: STRING;
+	_manufactured_time: DATE_AND_TIME;
+END_STRUCT
+END_TYPE
+]]></Declaration>
+  </DUT>
+</TcPlcObject>

@@ -5,10 +5,7 @@
 TYPE GroupBoxLayout:
 STRUCT
 	{attribute addProperty Name "<#Car - an idea#>"}
-	_car: Car;
-	
-	{attribute addProperty Name "<#An integer#>"}
-	_INT_00: INT;
+	_car: Car; // layout.stack, group layout.gb
 END_STRUCT
 END_TYPE
 ]]></Declaration>
