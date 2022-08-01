@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project Sdk="Microsoft.NET.Sdk.WindowsDesktop">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net48</TargetFramework>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Inxton.Package.Vortex.Essentials" Version="1.15.9-alpha.719" />
+    <PackageReference Include="Inxton.Package.Vortex.Essentials.Wpf" Version="1.15.9-alpha.719" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\PlcHammerConnector\PlcHammerConnector.csproj" />
+  </ItemGroup>
+
+</Project>

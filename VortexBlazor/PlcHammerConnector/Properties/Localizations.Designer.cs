@@ -61,6 +61,69 @@ namespace PlcHammerConnector.Properties {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to _UINT_00 with subrange 69-420.
+        /// </summary>
+        public static string ____UINT_00_with_subrange_69_420__ {
+            get {
+                return ResourceManager.GetString("____UINT_00_with_subrange_69_420__", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to An int.
+        /// </summary>
+        public static string ___An_int__ {
+            get {
+                return ResourceManager.GetString("___An_int__", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to An integer.
+        /// </summary>
+        public static string ___An_integer__ {
+            get {
+                return ResourceManager.GetString("___An_integer__", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Car - an idea.
+        /// </summary>
+        public static string ___Car___an_idea__ {
+            get {
+                return ResourceManager.GetString("___Car___an_idea__", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Car Dos.
+        /// </summary>
+        public static string ___Car_Dos__ {
+            get {
+                return ResourceManager.GetString("___Car_Dos__", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Car Tres.
+        /// </summary>
+        public static string ___Car_Tres__ {
+            get {
+                return ResourceManager.GetString("___Car_Tres__", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Car Uno.
+        /// </summary>
+        public static string ___Car_Uno__ {
+            get {
+                return ResourceManager.GetString("___Car_Uno__", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Current position.
         /// </summary>
         public static string ___Current_position__ {
