@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TcPlcObject Version="1.1.0.1" ProductVersion="3.1.4024.9">
+  <DUT Name="Stack_other" Id="{48a80471-2edd-4795-9f08-8da6b06b72f4}">
+    <Declaration><![CDATA[{attribute wpf [Container(Layout.Stack)]}
+TYPE Stack_other :
+STRUCT
+	{attribute wpf [Container(Layout.UniformGrid)]}
+	_wheel_ug: Wheel;
+	{attribute wpf [Container(Layout.Wrap)]}
+	_wheel_wrap: Wheel;
+	{attribute wpf [Container(Layout.Tabs)]}
+	_wheel_tabs: Wheel;
+	{attribute wpf [Container(Layout.Border)]}
+	_wheel_border: Wheel;
+	{attribute wpf [Container(Layout.GroupBox)]}
+	_wheel_gb: Wheel;
+END_STRUCT
+END_TYPE
+]]></Declaration>
+  </DUT>
+</TcPlcObject>
