@@ -1,11 +1,12 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <TcPlcObject Version="1.1.0.1" ProductVersion="3.1.4024.9">
   <DUT Name="GroupBoxLayout" Id="{cad173a1-4b25-44ff-9267-9295204f781a}">
-    <Declaration><![CDATA[{attribute wpf [Container(Layout.GroupBox)]}
-TYPE GroupBoxLayout:
+    <Declaration><![CDATA[TYPE GroupBoxLayout:
 STRUCT
-	{attribute addProperty Name "<#Car - an idea#>"}
-	_car: Car; // layout.stack, group layout.gb
+	{attribute wpf [Container(Layout.Stack)]}
+	{attribute wpf [Group(Layout.GroupBox)]}
+	{attribute addProperty Name "<#Various types#>"}
+	_vt: VariousTypes;
 END_STRUCT
 END_TYPE
 ]]></Declaration>

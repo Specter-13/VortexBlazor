@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TcPlcObject Version="1.1.0.1" ProductVersion="3.1.4024.9">
+  <DUT Name="Tabs_Tabs_other" Id="{e173d4c7-b457-44c2-af9e-dd02427a3626}">
+    <Declaration><![CDATA[TYPE Tabs_Tabs_other :
+STRUCT
+END_STRUCT
+END_TYPE
+]]></Declaration>
+  </DUT>
+</TcPlcObject>

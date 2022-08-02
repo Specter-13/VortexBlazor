@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TcPlcObject Version="1.1.0.1" ProductVersion="3.1.4024.9">
+  <DUT Name="ScrollLayout" Id="{3d7685b5-63a0-4e3a-b9e1-5db6f8619a0b}">
+    <Declaration><![CDATA[{attribute wpf [Container(Layout.Scroll)]}
+TYPE ScrollLayout :
+STRUCT
+	_vt: VariousTypes;
+END_STRUCT
+END_TYPE
+]]></Declaration>
+  </DUT>
+</TcPlcObject>

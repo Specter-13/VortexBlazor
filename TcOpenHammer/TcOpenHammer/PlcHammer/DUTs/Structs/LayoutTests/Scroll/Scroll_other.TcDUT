@@ -1,11 +1,13 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <TcPlcObject Version="1.1.0.1" ProductVersion="3.1.4024.9">
-  <DUT Name="UniformGrid_other" Id="{d1b7d3d1-af9b-43da-a4b5-f066457902e3}">
-    <Declaration><![CDATA[{attribute wpf [Container(Layout.UniformGrid)]}
-TYPE UniformGrid_other :
+  <DUT Name="Scroll_other" Id="{183fd1c7-3942-4dbe-97a7-bb2908a8a151}">
+    <Declaration><![CDATA[{attribute wpf [Container(Layout.Scroll)]}
+TYPE Scroll_other :
 STRUCT
 	{attribute wpf [Container(Layout.Stack)]}
 	_wheel_stack: Wheel;
+	{attribute wpf [Container(Layout.UniformGrid)]}
+	_wheel_ug: Wheel;
 	{attribute wpf [Container(Layout.Wrap)]}
 	_wheel_wrap: Wheel;
 	{attribute wpf [Container(Layout.Tabs)]}
@@ -14,8 +16,6 @@ STRUCT
 	_wheel_border: Wheel;
 	{attribute wpf [Container(Layout.GroupBox)]}
 	_wheel_gb: Wheel;
-	{attribute wpf [Container(Layout.Scroll)]}
-	_wheel_scroll: Wheel;
 END_STRUCT
 END_TYPE
 ]]></Declaration>
