@@ -28,7 +28,6 @@ STRUCT
 	_border_other_other: Border_other_other;
 	_groupBox_other_other: GroupBox_other_other;
 	_scroll_other_other: Scroll_other_other;
-
 END_STRUCT
 END_TYPE
 ]]></Declaration>

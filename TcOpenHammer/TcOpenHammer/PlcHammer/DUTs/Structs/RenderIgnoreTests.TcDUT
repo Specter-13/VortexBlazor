@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TcPlcObject Version="1.1.0.1" ProductVersion="3.1.4024.9">
+  <DUT Name="RenderIgnoreTests" Id="{1883e8bb-41c9-4cf5-8b69-37beb78f07af}">
+    <Declaration><![CDATA[TYPE RenderIgnoreTests :
+STRUCT
+	_renderIgnore_basic: RenderIgnore_basic;
+END_STRUCT
+END_TYPE
+]]></Declaration>
+  </DUT>
+</TcPlcObject>

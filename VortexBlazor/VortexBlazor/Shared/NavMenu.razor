@@ -1,11 +1,15 @@
 ﻿<div class="top-row pl-4 navbar navbar-dark">
-    <a class="navbar-brand" href="">Layout Demo</a>
+    <a class="navbar-brand" href="">RCC tester</a>
     <button class="navbar-toggler" @onclick="ToggleNavMenu">
         <span class="navbar-toggler-icon"></span>
     </button>
 </div>
 
 <div class="@NavMenuCssClass" @onclick="ToggleNavMenu">
+
+    <hr class="m-0 text-white" />
+
+    <h6 class="mt-2 mb-0 text-center text-white font-weight-light">Layouts</h6>
     <ul class="nav flex-column">
         <li class="nav-item px-3">
             <NavLink class="nav-link" href="/stack">
@@ -13,7 +17,7 @@
             </NavLink>
         </li>
         <li class="nav-item px-3">
-            <NavLink class="nav-link" href="/uniformgrid">
+            <NavLink class="nav-link" href="/uniformGrid">
                 <span class="oi oi-ellipses" aria-hidden="true"></span> UniformGrid
             </NavLink>
         </li>
@@ -33,7 +37,7 @@
             </NavLink>
         </li>
         <li class="nav-item px-3">
-            <NavLink class="nav-link" href="/groupbox">
+            <NavLink class="nav-link" href="/groupBox">
                 <span class="oi oi-box" aria-hidden="true"></span> GroupBox
             </NavLink>
         </li>
@@ -43,8 +47,19 @@
             </NavLink>
         </li>
         <li class="nav-item px-3">
-            <NavLink class="nav-link" href="/multiple_nested">
+            <NavLink class="nav-link" href="/multipleNested">
                 <span class="oi oi-random" aria-hidden="true"></span> Multiple nested
+            </NavLink>
+        </li>
+    </ul>
+
+    <hr class="m-0 text-white" />
+
+    <h6 class="mt-2 mb-0 text-center text-white font-weight-light">RenderIgnore</h6>
+    <ul class="nav flex-column">
+        <li class="nav-item px-3">
+            <NavLink class="nav-link" href="/renderIgnore">
+                <span class="oi oi-cloudy" aria-hidden="true"></span>Basic RenderIgnore
             </NavLink>
         </li>
     </ul>

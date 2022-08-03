@@ -114,6 +114,12 @@
     <Compile Include="DUTs\Structs\LayoutTests\Wrap\Wrap_other.TcDUT">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Include="DUTs\Structs\RenderIgnoreTests.TcDUT">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="DUTs\Structs\RenderIgnore\RenderIgnore_basic.TcDUT">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="Misc\Checkers\Checkers.TcPOU">
       <SubType>Code</SubType>
     </Compile>
@@ -181,6 +187,7 @@
     <Folder Include="DUTs\Structs\LayoutTests\Wrap" />
     <Folder Include="DUTs\Structs\LayoutTests\UniformGrid" />
     <Folder Include="DUTs\Structs\LayoutTests\Stack" />
+    <Folder Include="DUTs\Structs\RenderIgnore" />
     <Folder Include="GVLs" />
     <Folder Include="Components" />
     <Folder Include="Components\Drive" />

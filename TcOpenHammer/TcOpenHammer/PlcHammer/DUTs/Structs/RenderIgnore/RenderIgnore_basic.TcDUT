@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TcPlcObject Version="1.1.0.1" ProductVersion="3.1.4024.9">
+  <DUT Name="RenderIgnore_basic" Id="{6e7e8068-6230-4134-a250-cfc49b9c6216}">
+    <Declaration><![CDATA[TYPE RenderIgnore_basic :
+STRUCT
+	{attribute clr [RenderIgnore()]}
+	_wheel_all: INT;
+	
+	{attribute clr [RenderIgnore("Display")]}
+	_wheel_display: INT;
+	
+	{attribute clr [RenderIgnore("Control")]}
+	_wheel_control: INT;
+	
+	{attribute clr [RenderIgnore("ShadowDisplay")]}
+	_wheel_shadowDisplay: INT;
+	
+	{attribute clr [RenderIgnore("ShadowControl")]}
+	_wheel_shadowControl: INT;
+	
+	//
+	
+	{attribute clr [RenderIgnore("ShadowControl", "ShadowDisplay")]}
+	_wheel_sC_sD: INT;
+	
+	{attribute clr [RenderIgnore("Control", "Display")]}
+	_wheel_C_D: INT;
+	
+	//
+	
+	{attribute clr [RenderIgnore("Control", "Display", "ShadowControl")]}
+	_wheel_C_D_sC: INT;
+END_STRUCT
+END_TYPE
+]]></Declaration>
+  </DUT>
+</TcPlcObject>

@@ -22,6 +22,7 @@ VAR
 	_checkers : Checkers(THIS^);
 	
 	_layoutTests: LayoutTests;
+	_renderIgnoreTests: RenderIgnoreTests;
 END_VAR]]></Declaration>
     <Implementation>
       <ST><![CDATA[_components();
