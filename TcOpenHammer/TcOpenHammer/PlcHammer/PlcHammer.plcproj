@@ -60,7 +60,25 @@
     <Compile Include="DUTs\Structs\LayoutTests\GroupBox\GroupBox_other.TcDUT">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="DUTs\Structs\LayoutTests\Multiple\Tabs_Tabs_other.TcDUT">
+    <Compile Include="DUTs\Structs\LayoutTests\Multiple\Border_other_other.TcDUT">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="DUTs\Structs\LayoutTests\Multiple\GroupBox_other_other.TcDUT">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="DUTs\Structs\LayoutTests\Multiple\Scroll_other_other.TcDUT">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="DUTs\Structs\LayoutTests\Multiple\Stack_other_other.TcDUT">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="DUTs\Structs\LayoutTests\Multiple\Tabs_other_other.TcDUT">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="DUTs\Structs\LayoutTests\Multiple\UniformGrid_other_other.TcDUT">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="DUTs\Structs\LayoutTests\Multiple\Wrap_other_other.TcDUT">
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="DUTs\Structs\LayoutTests\Scroll\ScrollLayout.TcDUT">

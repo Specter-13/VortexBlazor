@@ -13,6 +13,9 @@ STRUCT
 	{attribute addProperty Name "<#Wrap#>"}
 	{attribute wpf [Container(Layout.Wrap)]}
 	_wheel_wrap: Wheel;
+	{attribute addProperty Name "<#Tabs#>"}
+	{attribute wpf [Container(Layout.Tabs)]}
+	_wheel_tabs: Wheel;
 	{attribute addProperty Name "<#Border#>"}
 	{attribute wpf [Container(Layout.Border)]}
 	_wheel_border: Wheel;

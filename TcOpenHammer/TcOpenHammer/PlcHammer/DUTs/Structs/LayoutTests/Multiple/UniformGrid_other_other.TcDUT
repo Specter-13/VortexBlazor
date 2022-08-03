@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TcPlcObject Version="1.1.0.1" ProductVersion="3.1.4024.9">
+  <DUT Name="UniformGrid_other_other" Id="{b370b037-5591-47e2-b75d-7d958be3d2be}">
+    <Declaration><![CDATA[{attribute wpf [Container(Layout.UniformGrid)]}
+TYPE UniformGrid_other_other :
+STRUCT
+	{attribute addProperty Name "<#Stack#>"}
+	_stack_other: Stack_other;
+	{attribute addProperty Name "<#UniformGrid#>"}
+	_uniformGrid_other: UniformGrid_other;
+	{attribute addProperty Name "<#Wrap#>"}
+	_wrap_other: Wrap_other;
+	{attribute addProperty Name "<#Tabs#>"}
+	_tabs_other: Tabs_other;
+	{attribute addProperty Name "<#Border#>"}
+	_border_other: Border_other;
+	{attribute addProperty Name "<#GroupBox#>"}
+	_groupBox_other: GroupBox_other;
+	{attribute addProperty Name "<#Scroll#>"}
+	_scroll_other: Scroll_other;
+END_STRUCT
+END_TYPE
+]]></Declaration>
+  </DUT>
+</TcPlcObject>

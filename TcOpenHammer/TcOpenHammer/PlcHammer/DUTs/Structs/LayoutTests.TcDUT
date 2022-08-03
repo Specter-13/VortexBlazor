@@ -11,7 +11,7 @@ STRUCT
 	_groupBoxLayout: GroupBoxLayout;
 	_scrollLayout: ScrollLayout;
 	
-	// multiple xddds
+	// multiple 2nd layer
 	_stack_other: Stack_other;
 	_uniformGrid_other: UniformGrid_other;
 	_wrap_other: Wrap_other;
@@ -19,6 +19,16 @@ STRUCT
 	_border_other: Border_other;
 	_groupBox_other: GroupBox_other;
 	_scroll_other: Scroll_other;
+	
+	//multiple 3rd layer xddds
+	_stack_other_other: Stack_other_other;
+	_uniformGrid_other_other: UniformGrid_other_other;
+	_wrap_other_other: Wrap_other_other;
+	_tabs_other_other: Tabs_other_other;
+	_border_other_other: Border_other_other;
+	_groupBox_other_other: GroupBox_other_other;
+	_scroll_other_other: Scroll_other_other;
+
 END_STRUCT
 END_TYPE
 ]]></Declaration>

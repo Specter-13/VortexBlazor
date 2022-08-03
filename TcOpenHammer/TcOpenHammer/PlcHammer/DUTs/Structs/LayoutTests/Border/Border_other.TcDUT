@@ -12,6 +12,8 @@ STRUCT
 	_wheel_wrap: Wheel;
 	{attribute wpf [Container(Layout.Tabs)]}
 	_wheel_tabs: Wheel;
+	{attribute wpf [Container(Layout.Border)]}
+	_wheel_border: Wheel;
 	{attribute wpf [Container(Layout.GroupBox)]}
 	_wheel_gb: Wheel;
 	{attribute wpf [Container(Layout.Scroll)]}

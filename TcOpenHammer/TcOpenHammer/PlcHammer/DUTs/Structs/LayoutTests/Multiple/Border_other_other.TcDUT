@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TcPlcObject Version="1.1.0.1" ProductVersion="3.1.4024.9">
+  <DUT Name="Border_other_other" Id="{00545a35-82ca-457a-b614-064b6dbef786}">
+    <Declaration><![CDATA[{attribute wpf [Container(Layout.Border)]}
+TYPE Border_other_other :
+STRUCT
+	{attribute addProperty Name "<#Stack#>"}
+	_stack_other: Stack_other;
+	{attribute addProperty Name "<#UniformGrid#>"}
+	_uniformGrid_other: UniformGrid_other;
+	{attribute addProperty Name "<#Wrap#>"}
+	_wrap_other: Wrap_other;
+	{attribute addProperty Name "<#Tabs#>"}
+	_tabs_other: Tabs_other;
+	{attribute addProperty Name "<#Border#>"}
+	_border_other: Border_other;
+	{attribute addProperty Name "<#GroupBox#>"}
+	_groupBox_other: GroupBox_other;
+	{attribute addProperty Name "<#Scroll#>"}
+	_scroll_other: Scroll_other;
+END_STRUCT
+END_TYPE
+]]></Declaration>
+  </DUT>
+</TcPlcObject>

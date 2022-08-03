@@ -6,6 +6,8 @@ TYPE UniformGrid_other :
 STRUCT
 	{attribute wpf [Container(Layout.Stack)]}
 	_wheel_stack: Wheel;
+	{attribute wpf [Container(Layout.UniformGrid)]}
+	_wheel_ug: Wheel;
 	{attribute wpf [Container(Layout.Wrap)]}
 	_wheel_wrap: Wheel;
 	{attribute wpf [Container(Layout.Tabs)]}

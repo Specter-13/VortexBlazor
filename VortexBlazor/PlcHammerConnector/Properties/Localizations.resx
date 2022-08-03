@@ -144,15 +144,6 @@
   <data name="___Various_types__" xml:space="preserve">
     <value>Various types</value>
   </data>
-  <data name="___Car_Uno__" xml:space="preserve">
-    <value>Car Uno</value>
-  </data>
-  <data name="___Car_Dos__" xml:space="preserve">
-    <value>Car Dos</value>
-  </data>
-  <data name="___Car_Tres__" xml:space="preserve">
-    <value>Car Tres</value>
-  </data>
   <data name="___Stack__" xml:space="preserve">
     <value>Stack</value>
   </data>
@@ -162,6 +153,9 @@
   <data name="___Wrap__" xml:space="preserve">
     <value>Wrap</value>
   </data>
+  <data name="___Tabs__" xml:space="preserve">
+    <value>Tabs</value>
+  </data>
   <data name="___Border__" xml:space="preserve">
     <value>Border</value>
   </data>
@@ -170,5 +164,14 @@
   </data>
   <data name="___Scroll__" xml:space="preserve">
     <value>Scroll</value>
+  </data>
+  <data name="___Car_Uno__" xml:space="preserve">
+    <value>Car Uno</value>
+  </data>
+  <data name="___Car_Dos__" xml:space="preserve">
+    <value>Car Dos</value>
+  </data>
+  <data name="___Car_Tres__" xml:space="preserve">
+    <value>Car Tres</value>
   </data>
 </root>

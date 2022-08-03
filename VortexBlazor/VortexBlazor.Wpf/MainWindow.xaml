@@ -6,13 +6,13 @@
         xmlns:local="clr-namespace:VortexBlazor.Wpf"
         xmlns:vortex="http://vortex.mts/xaml"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="867">
+        Title="MainWindow" Height="450" Width="857">
     <Window.DataContext>
         <local:MainWindowViewModel />
     </Window.DataContext>
     <Grid>
         <StackPanel>
-            <vortex:RenderableContentControl DataContext="{Binding PLC.TECH_MAIN._app._station001._layoutTests._stack_other, Mode=OneWay}" PresentationType="Control">
+            <vortex:RenderableContentControl DataContext="{Binding PLC.TECH_MAIN._app._station001._layoutTests._groupBox_other, Mode=OneWay}" PresentationType="Control" RenderTransformOrigin="0.496,0.549">
              
             </vortex:RenderableContentControl>
         </StackPanel>
