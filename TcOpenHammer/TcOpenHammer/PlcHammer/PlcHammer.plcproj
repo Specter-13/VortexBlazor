@@ -39,6 +39,9 @@
     <Compile Include="DUTs\Enums\enumModes.TcDUT">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Include="DUTs\Structs\CutomLibraries\VortexComponent.TcDUT">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="DUTs\Structs\GenericStructs\Car.TcDUT">
       <SubType>Code</SubType>
     </Compile>
@@ -187,6 +190,7 @@
     <Folder Include="DUTs\Structs\LayoutTests\Wrap" />
     <Folder Include="DUTs\Structs\LayoutTests\UniformGrid" />
     <Folder Include="DUTs\Structs\LayoutTests\Stack" />
+    <Folder Include="DUTs\Structs\CutomLibraries" />
     <Folder Include="DUTs\Structs\RenderIgnore" />
     <Folder Include="GVLs" />
     <Folder Include="Components" />

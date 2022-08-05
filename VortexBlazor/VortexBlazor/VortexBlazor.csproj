@@ -9,6 +9,7 @@
   </ItemGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\MyCustomLibrary\MyCustomLibrary.csproj" />
     <ProjectReference Include="..\PlcHammerConnector\PlcHammerConnector.csproj" />
   </ItemGroup>
 

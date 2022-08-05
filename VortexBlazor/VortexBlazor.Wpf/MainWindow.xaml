@@ -12,7 +12,7 @@
     </Window.DataContext>
     <Grid>
         <StackPanel>
-            <vortex:RenderableContentControl DataContext="{Binding PLC.TECH_MAIN._app._station001._renderIgnoreTests._renderIgnore_basic, Mode=OneWay}" PresentationType="ShadowDisplay" RenderTransformOrigin="0.496,0.549">
+            <vortex:RenderableContentControl DataContext="{Binding PLC.TECH_MAIN._app._station001._renderIgnoreTests._renderIgnore_basic, Mode=OneWay}" PresentationType="Display-ShadowControl" RenderTransformOrigin="0.496,0.549">
              
             </vortex:RenderableContentControl>
         </StackPanel>

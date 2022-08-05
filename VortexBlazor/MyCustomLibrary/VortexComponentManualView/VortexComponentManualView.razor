@@ -1,0 +1,29 @@
+﻿@namespace PlcHammer
+@inherits RenderableComplexComponentBase<VortexComponent>
+
+<div class="border border-warning rounded p-2">
+    <h4>VortexComponent</h4>
+    <div class="d-flex flex-column align-items-center">
+        <p>VortexBool serviceView: @Component.vortex_bool.Cyclic</p>
+        <p>VortexInt serviceView: @Component.vortex_int.Cyclic</p>
+        <p>VortexString serviceView: @Component.vortex_string.Cyclic</p>
+    </div>
+
+    <p>VortexString wheel:</p>
+    <table class="table">
+        <tbody>
+            <tr>
+                <td>Wheel._manufacturer:</td>
+                <td>@Component.vortex_wheel._manufactured_time.Cyclic</td>
+            </tr>
+            <tr>
+                <td>Wheel._material:</td>
+                <td>@Component.vortex_wheel._material.Cyclic</td>
+            </tr>
+            <tr>
+                <td>Wheel._rim_radius:</td>
+                <td>@Component.vortex_wheel._rim_radius.Cyclic</td>
+            </tr>
+        </tbody>
+    </table>
+</div>

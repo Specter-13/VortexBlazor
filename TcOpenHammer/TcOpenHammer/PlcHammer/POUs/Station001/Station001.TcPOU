@@ -23,6 +23,7 @@ VAR
 	
 	_layoutTests: LayoutTests;
 	_renderIgnoreTests: RenderIgnoreTests;
+	_vortexComponent: VortexComponent;
 END_VAR]]></Declaration>
     <Implementation>
       <ST><![CDATA[_components();
