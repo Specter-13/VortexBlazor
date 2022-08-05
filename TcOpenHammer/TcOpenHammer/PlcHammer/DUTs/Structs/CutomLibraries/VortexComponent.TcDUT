@@ -1,11 +1,13 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <TcPlcObject Version="1.1.0.1" ProductVersion="3.1.4024.9">
   <DUT Name="VortexComponent" Id="{d1164489-f28a-4e73-a53f-172456623777}">
-    <Declaration><![CDATA[TYPE VortexComponent :
+    <Declaration><![CDATA[{attribute clr [RenderIgnore("Manual")]}
+TYPE VortexComponent :
 STRUCT
+	{attribute clr [RenderIgnore("Control", "ShadowControl")]}
+	{attribute addProperty Name "<#Vortex bool#>"}
 	vortex_bool: BOOL;
-	vortex_int: INT;
-	vortex_string: STRING;
+	{attribute wpf [Container(Layout.Wrap)]}
 	vortex_wheel: Wheel;
 END_STRUCT
 END_TYPE

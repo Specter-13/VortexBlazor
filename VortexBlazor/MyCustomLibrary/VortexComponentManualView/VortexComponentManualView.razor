@@ -4,9 +4,7 @@
 <div class="border border-warning rounded p-2">
     <h4>VortexComponent</h4>
     <div class="d-flex flex-column align-items-center">
-        <p>VortexBool serviceView: @Component.vortex_bool.Cyclic</p>
-        <p>VortexInt serviceView: @Component.vortex_int.Cyclic</p>
-        <p>VortexString serviceView: @Component.vortex_string.Cyclic</p>
+        <p>@Component.vortex_bool.AttributeName: @Component.vortex_bool.Cyclic</p>
     </div>
 
     <p>VortexString wheel:</p>
@@ -26,4 +24,6 @@
             </tr>
         </tbody>
     </table>
+
+    <RenderableContentControl Context="@Component" Presentation="Control"></RenderableContentControl>
 </div>
