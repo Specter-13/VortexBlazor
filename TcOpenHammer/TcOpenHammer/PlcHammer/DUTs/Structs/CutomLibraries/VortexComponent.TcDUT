@@ -7,6 +7,7 @@ STRUCT
 	{attribute clr [RenderIgnore("Control", "ShadowControl")]}
 	{attribute addProperty Name "<#Vortex bool#>"}
 	vortex_bool: BOOL;
+	{attribute addProperty Name "<#Vortex wheel#>"}
 	{attribute wpf [Container(Layout.Wrap)]}
 	vortex_wheel: Wheel;
 END_STRUCT

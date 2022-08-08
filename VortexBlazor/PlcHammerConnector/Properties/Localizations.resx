@@ -141,6 +141,9 @@
   <data name="___Vortex_bool__" xml:space="preserve">
     <value>Vortex bool</value>
   </data>
+  <data name="___Vortex_wheel__" xml:space="preserve">
+    <value>Vortex wheel</value>
+  </data>
   <data name="____UINT_00_with_subrange_69_420__" xml:space="preserve">
     <value>_UINT_00 with subrange 69-420</value>
   </data>

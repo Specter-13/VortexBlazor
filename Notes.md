@@ -24,3 +24,5 @@ About RenderableContentControl and its working.
     ```
     `vortex_bool` is displayed even if Presentation mode is `Manual`.
   - `Presentation="Base"` and `Presentation=""` searches for VortexComponentView. If not found `Display` is used.
+  - `@ViewModel.Component.vortex_wheel.AttributeName` only displays the name if in PLC the following is set **above** the vortex_wheel struct: `{attribute addProperty Name "<#Vortex wheel#>"}`
+  - If the Presentation type is not found, nothing is rendered.

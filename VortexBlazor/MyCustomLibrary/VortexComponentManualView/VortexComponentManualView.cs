@@ -1,8 +1,4 @@
-﻿using System;
-using System.ComponentModel;
-using Microsoft.AspNetCore.Components;
-
-namespace PlcHammer
+﻿namespace PlcHammer
 {
     public partial class VortexComponentManualView
     {

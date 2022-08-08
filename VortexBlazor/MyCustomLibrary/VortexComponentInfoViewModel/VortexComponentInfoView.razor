@@ -1,0 +1,21 @@
+﻿@namespace PlcHammer
+@inherits RenderableViewModelComponentBase<VortexComponentInfoViewModel>
+
+<div class="border rounded p-2">
+    <h4>VortexComponent - Info</h4>
+    <p>@ViewModel.Component.vortex_bool.AttributeName - <span>is a bool duh</span></p>
+    <p>@ViewModel.Component.vortex_wheel.AttributeName:</p>
+    <p>&emsp;@ViewModel.Component.vortex_wheel._manufactured_time.AttributeName - <span>when was the wheel created.</span></p>
+    <p>&emsp;@ViewModel.Component.vortex_wheel._material.AttributeName - <span>what material was used.</span></p>
+    <p>&emsp;@ViewModel.Component.vortex_wheel._rim_radius.AttributeName - <span>the radius of the wheel.</span></p>
+
+    <RenderableContentControl Context="@ViewModel.Component" Presentation="Display"></RenderableContentControl>
+</div>
+
+@code
+{
+    protected override void OnInitialized()
+    {
+        UpdateValuesOnChange(ViewModel.Component);
+    }
+}
